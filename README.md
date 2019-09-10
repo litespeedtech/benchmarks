@@ -1,2 +1,2 @@
-# benchmarks
-Various benchmarks
+# Benchmarks
+This repository contains various benchmarks
