@@ -4,4 +4,4 @@ CFLAGS=-Wall -DNDEBUG -O3 -g0
 comp-dec: comp-dec.o litespeed.o nginx.o
 
 clean:
-	rm comp-dec *.o
+	rm -vf comp-dec *.o
