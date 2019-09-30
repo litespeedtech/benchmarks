@@ -87,7 +87,7 @@ lshpack_enc_huff_encode (const unsigned char *src,
     const struct henc *henc;
     uint16_t idx;
 
-    while (src + sizeof(bits) * 8 / 5 < src_end
+    while (src + sizeof(bits) * 8 / 5 + sizeof(idx) < src_end
                                     && p_dst + sizeof(bits) <= dst_end)
     {
         memcpy(&idx, src, 2);
